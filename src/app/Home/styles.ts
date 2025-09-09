@@ -45,7 +45,7 @@ export const styles = StyleSheet.create({
     input: {
         flex: 1,
         textAlign: 'left',
-        color: "black",
+        color: "white",
         borderWidth: 2,
         borderColor: "black",
         borderRadius: 8,
