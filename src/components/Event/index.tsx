@@ -10,7 +10,7 @@ type Props = {
 export function Event({name}:Props) {
     return (
         <View style={styles.contener}>
-            <AntDesign name="checkcircle" size={24} color="black" />
+            <AntDesign style={styles.botaolist} name="checkcircle" size={24} color="black" />
             <Text style={styles.textEvent}>{name}</Text>
         </View>
     );

@@ -16,11 +16,16 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         color: "black",
         padding: 10,
-        gap:15,
+        paddingLeft:15,
         borderBottomWidth: 1,
-        borderBottomColor:"black"
+        borderBottomColor: "black"
     },
-
+    botaolist: {
+        paddingTop:10,
+        height:"100%",
+        borderBottomWidth: 1,
+        borderBottomColor: "black"
+    },
     button: {
         display: "flex",
         justifyContent: "center",

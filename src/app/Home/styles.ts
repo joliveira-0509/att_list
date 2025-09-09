@@ -74,6 +74,7 @@ export const styles = StyleSheet.create({
         borderColor: "black",
         paddingBottom:"170%",
         paddingLeft:"3%",
+        overflow:"scroll",
     }
 
 });
