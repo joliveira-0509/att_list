@@ -3,8 +3,10 @@ import { styles } from './styles';
 import { Event } from '../../components/Event';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { Button, Text, TextInput, Touchable, TouchableOpacity, View } from 'react-native';
+import { useState } from 'react';
 
 export default function App() {
+
     return (
         <View style={styles.container}>
             <View style={styles.titulo_container}>
